@@ -7,9 +7,10 @@
   2. Overview
   3. Installation
   4. Usage
-  5. Version History
-  6. Terms of Use & Disclaimer
-  7. Contact Information
+  5. Source Code Usage Instructions
+  6. Version History
+  7. Terms of Use & Disclaimer
+  8. Contact Information
  =============================
 
  ~ 1. System Requirements ~ 
@@ -48,13 +49,18 @@
   If you've got an idea for how to use MessagePop, go ahead! 
   And tell me, because I'd love to know!
 
- ~ 5. Version History ~
+ ~ 5. Source Code Usage Instructions ~
+  To see the source code, go to www.github.com/Nitemice/MessagePop, and it's now all
+  there. To play around with it, download all the files and open the .VBProj file in
+  Visual Studio, and it should load all the files you need.
+  
+  ~ 6. Version History ~
   1.2.5 (19/9/2013) : Made adjustments for upload to GitHub & added licence
   1.2 (25/5/2013) : Added ability to skip specifying message and/or title
   1.1 (16/5/2013) : Initial release build
   1.0 (8/5/2013) : Initial concept build
 
- ~ 6. Terms of Use & Disclaimer ~
+ ~ 7. Terms of Use & Disclaimer ~
   This software is licensed under The MIT License (MIT)
 	Copyright (c) 2013 Nitemice
  
@@ -75,7 +81,7 @@
 	WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   
- ~ 7. Contact Information ~
+ ~ 8. Contact Information ~
  Nitemice Software
   Visit my site: http://nitemice.net
   Email me: contact@nitemice.net
