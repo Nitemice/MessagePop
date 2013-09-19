@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MessagePop.exe" version="1.2.5.4" publicKeyToken="974e8419888e3d03" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="popUp.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MessagePop" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="MessagePop.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MessagePop.exe" size="36864">
+      <assemblyIdentity name="MessagePop" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>eMSrtqVZ0mZ9pxcQJh6QpwFsemI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="popUp.ico" size="9662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vMaeuk2YuQoU6HZehPXxnfT+F+U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="readme.txt" size="3606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UPH2FRz0bzO1wNF12ZC69rbFyog=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MiCBook\NiteMice" issuerKeyHash="2c98d18945bd5148a680ab5bcc8ae25fbe7bf0fc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>4P5jWwlGPYApx8ISaj46zIqxCBw=</DigestValue></Reference></SignedInfo><SignatureValue>kOJeZowJvX32LVnV/Bg6omVraY7yUbettRBCCKKsz5PD7rP7LH8lHAdh7uUmx/ATjv2+6+7fYWAS9oXyfY0Y30SFBNdUOGGbHexUzOQiO9JCAwQ37mRXXWQ638ZO2oxgsSUSDSUfT4KT4duihdJXxOJDLEwYydhKEO/FHoho1to=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u+g0CSku+ZP1eD60LlrSW2+GSlBo8a9bcEqtCXQsbl3/mOK+fw+wx+midluRcVt3FMeSoEdB01/UlE23Is7VWqoRhrTCjP/ZrAkWQaSd0Ddb9TjYTEY0kCygr3wIzpldGFjbOrAmqR2zC3FwaR6Zi31sPBemZiKuMp73UmFP7is=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1c08b18acc3a3e6a12c2c729803d46095b63fee0" Description="" Url=""><as:assemblyIdentity name="MessagePop.exe" version="1.2.5.4" publicKeyToken="974e8419888e3d03" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MiCBook\NiteMice</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>2BdoZ5KH6gPA0j7a3RJDvY2f/xU=</DigestValue></Reference></SignedInfo><SignatureValue>G7Up6DKAPfNkcca8Ak1O3lX6hkw5MgDr2bDrHs2Bla/Ga8SMhClNUPPaHNZKJ0lXHq/Dp6XhaH/mK32iJIH3LwDnXdkeleh6YOgdxkH2lYQs3dy9lqw6ZUbThogCOGiyDrdV17U4lKlSDdoEH9FWK73tppzuZIJn1BNqUMVp6Mw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u+g0CSku+ZP1eD60LlrSW2+GSlBo8a9bcEqtCXQsbl3/mOK+fw+wx+midluRcVt3FMeSoEdB01/UlE23Is7VWqoRhrTCjP/ZrAkWQaSd0Ddb9TjYTEY0kCygr3wIzpldGFjbOrAmqR2zC3FwaR6Zi31sPBemZiKuMp73UmFP7is=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQcPALpMnaK4RPBxp38BUbcDANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAATQBpAEMAQgBvAG8AawBcAE4AaQB0AGUATQBpAGMAZTAeFw0xMzA1MDgxMzQ0NDRaFw0xNDA1MDgxOTQ0NDRaMCsxKTAnBgNVBAMeIABNAGkAQwBCAG8AbwBrAFwATgBpAHQAZQBNAGkAYwBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC76DQJKS75k/V4PrQuWtJbb4ZKUGjxr1twSq0JdCxuXf+Y4r5/D7DH6aJ2W5FxW3cUx5KgR0HTX9SUTbciztVaqhGGtMKM/9msCRZBpJ3QN1v1ONhMRjSQLKCvfAjOmV0YWNs6sCapHbMLcXBpHpmLfWw8F6ZmIq4ynvdSYU/uKwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACLIODHaEBiOedF3GdAHBEiWy0Z8PRmCQl16DbDO1UuIMUjzOdZX3rmH6fmXotTttPLZPI24N8VfkA2i0BxXvxVeNNP48Gz6ORMZY0M87pOt6bsoTL9qB14LNZ2qz/UBMpGOkQH91jLlUgQ0aAybwIlOsFcyswvfJ+RGhf18FhCP</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
