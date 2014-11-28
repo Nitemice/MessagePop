@@ -1,8 +1,8 @@
-﻿  MessagePop v1.2.2
-  By Nitemice, 2013
+﻿  wpTrackerCS v3.1.0
+  By Nitemice, 2014
  =============================
+  
   ~ Contents ~
-
   1. System Requirements
   2. Overview
   3. Installation
@@ -37,14 +37,14 @@
   This is my message. # Titles are cool! # Press the button! 
 
    • You can skip entering a message or title text if you want by hashing past it, 
-     e.g. if you don't want to specify a title, but you do want to specify the button text,
-     write your message, and then adding "space hash space hash space" ( # # ) and then 
-     type what you want the button to say. 
+     e.g. if you don't want to specify a title, but you do want to specify the button 
+	 text, write your message, and then adding "space hash space hash space" ( # # )
+	 and then type what you want the button to say. 
 
    • You can quickly close MessagePop by hitting either the Enter or Escape keys.
 
   MessagePop can be used in various ways. It can be run on a schedule like an alarm, 
-  from command line as a warning or alert prompt, or from a shortcut for I don't know why...
+  from command line as a warning or alert prompt, or from a shortcut for some reason.
   If you've got an idea for how to use MessagePop, go ahead! 
   And tell me, because I'd love to know!
 
@@ -58,20 +58,22 @@
   This software is licensed under The MIT License (MIT)
 	Copyright (c) 2013 Nitemice
  
-	Permission is hereby granted, free of charge, to any person obtaining a copy of this software
-	 and associated documentation files (the "Software"), to deal in the Software without restriction,
-	 including without limitation the rights to use, copy, modify, merge, publish, distribute, 
-	 sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is 
-	 furnished to do so, subject to the following conditions:
+	Permission is hereby granted, free of charge, to any person obtaining a copy of 
+	this software and associated documentation files (the "Software"), to deal in the
+	Software without restriction, including without limitation the rights to use,
+	copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+	Software, and to permit persons to whom the Software is furnished to do so,
+	subject to the following conditions:
  
-	The above copyright notice and this permission notice shall be included in all copies
-	or substantial portions of the Software.
+	The above copyright notice and this permission notice shall be included in all 
+	copies or substantial portions of the Software.
  
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-	INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
-	AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
-	DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
-	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+	WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   
  ~ 7. Contact Information ~
  Nitemice Software
